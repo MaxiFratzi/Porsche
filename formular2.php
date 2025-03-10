@@ -30,7 +30,7 @@
             unset($_SESSION['err']);
         }
         ?>
-        <form action="register_process.php" method="post">
+        <form action="register.php" method="post">
             <div class="mb-3">
                 <label for="email" class="form-label">Email:</label>
                 <input type="email" id="email" name="email" class="form-control" required>
